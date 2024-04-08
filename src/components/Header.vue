@@ -36,7 +36,7 @@ export default {
     <div class=" container d-flex justify-content-between  ">
    
      <div class=" pt-2">
-       logo
+       <img src="../assets/img/avada-charity-logo.png" alt="">
      </div>
    
      <div>
@@ -62,6 +62,9 @@ header{
 a{
   color: white;
   padding-top: 10px;
+}
+img{
+  width: 150px;
 }
 
 </style>
