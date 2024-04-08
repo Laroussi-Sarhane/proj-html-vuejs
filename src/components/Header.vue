@@ -1,5 +1,31 @@
 <script>
 export default {
+  data(){
+    return{
+      Menu:[
+        {
+          title: 'HOME',
+          link: '#'
+        },
+        {
+          title: 'MISSION',
+          link: '#'
+        },
+        {
+          title: 'CAUSES',
+          link : '#'
+        },
+        {
+          title: 'JOURNAL',
+          link: '#'
+        },
+        {
+          title: 'DONATE',
+          link: '#'
+        }
+      ]
+    }
+  }
 
 }
 </script>
@@ -15,11 +41,9 @@ export default {
    
      <div>
        <ul class=" d-flex list-unstyled">
-         <li class=" p-2 "><a href="#">home</a></li>
-         <li class=" p-2 "><a href="#">MISSION</a></li>
-         <li class=" p-2 "><a href="#">CAUSES</a></li>
-         <li class=" p-2 "><a href="#">JOURNAL</a></li>
-         <li class=" p-2 "><a href="#">DONATE</a></li>
+         <li v-for="(item, index) in Menu " :key="index" class=" p-2 ">
+          <a :href="item.link">{{ item.title }}</a>
+        </li>
        </ul>
      </div>
    
