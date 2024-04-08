@@ -13,7 +13,7 @@ export default {
 }
 </script>
 <template>
-  
+
   <Header/>
   <Main/>
   <Footer/>
@@ -22,6 +22,6 @@ export default {
 </template>
 
 
-<style>
+<style scoped>
 
 </style>
