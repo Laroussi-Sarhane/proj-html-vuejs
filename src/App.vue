@@ -5,6 +5,7 @@ import Header from './components/Header.vue'
 import Main from './components/Main.vue'
 import Firstsection from './components/Firstsection.vue'
 import Secondsection from './components/Secondsection.vue'
+import Thirdsection from './components/Thirdsection.vue'
 
 
 export default {
@@ -12,6 +13,7 @@ export default {
     Header,
     Firstsection,
     Secondsection,
+    Thirdsection,
     Main,
     Footer
   }
@@ -23,6 +25,7 @@ export default {
   <Header/>
   <Firstsection />
   <Secondsection />
+  <Thirdsection />
 
 
   <Main/>
