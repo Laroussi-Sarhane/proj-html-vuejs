@@ -25,7 +25,7 @@ export default {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, veniam. Facere voluptatum ex nulla aperiam. Consequatur architecto consectetur</p>
             </div>
 
-            <div class="my_our_mision">
+            <div class="my_our_mision mb-1">
               <button type="button" class="btn btn-outline-warning">OUR MISSION</button>
             </div>
   
@@ -108,7 +108,7 @@ export default {
 
 <style scoped>
 section{
-  min-height: 400px;
+  min-height: 500px;
 }
 .my_describ{
   width: 67%;
@@ -121,8 +121,7 @@ section{
 }
 .my_icons{
   width: 33%;
-  height: 400px;
-  background-color: aqua;
+  height: 500px;
   background-image: url(../assets/img/home-content-bg-1.jpg);
   background-size: cover;
 }
