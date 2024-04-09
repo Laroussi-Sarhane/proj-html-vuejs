@@ -39,54 +39,54 @@ export default {
 
           <div class=" col-12 ">
             <div class=" d-flex justify-content-center ">
-              <div>
+              <div class="my_color">
                 <i class="fa-regular fa-heart"></i>
               </div>
 
-              <div>
+              <div class="my_color px-2">
                 2032
               </div>
               
             </div>
 
-            <div>
-              <p>vediamo che scrivere</p>
+            <div class="my_color">
+              <p>volonteers worldwide</p>
             </div>
 
           </div>
 
           <div class=" col-12 ">
             <div class=" d-flex justify-content-center ">
-              <div>
-                <i class="fa-regular fa-heart"></i>
+              <div class="my_color">
+                <i class="fa-solid fa-globe"></i>
               </div>
 
-              <div>
-                2032
+              <div class="my_color px-2">
+                132
               </div>
               
             </div>
 
-            <div>
-              <p>vediamo che scrivere</p>
+            <div class="my_color">
+              <p>Active projects</p>
             </div>
 
           </div>
 
           <div class=" col-12 ">
             <div class=" d-flex justify-content-center ">
-              <div>
-                <i class="fa-regular fa-heart"></i>
+              <div class="my_color">
+                <i class="fa-solid fa-dollar-sign"></i>
               </div>
 
-              <div>
-                2032
+              <div class="my_color px-2 ">
+                3.8 M
               </div>
               
             </div>
 
-            <div>
-              <p>vediamo che scrivere</p>
+            <div class="my_color">
+              <p>donated</p>
             </div>
 
           </div>
@@ -128,5 +128,9 @@ section{
 }
 .my_title{
   margin-top: 90px;
+}
+.my_color{
+  color: white;
+  font-size: 1.4rem;
 }
 </style>
