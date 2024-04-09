@@ -33,8 +33,67 @@ export default {
           </div>
   
         </div>
+        <!-- inizio parte destra con icons -->
       
-        <div class="my_icons">
+        <div class="my_icons flex-column  justify-content-center align-content-center   text-center  " >
+
+          <div class=" col-12 ">
+            <div class=" d-flex justify-content-center ">
+              <div>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+
+              <div>
+                2032
+              </div>
+              
+            </div>
+
+            <div>
+              <p>vediamo che scrivere</p>
+            </div>
+
+          </div>
+
+          <div class=" col-12 ">
+            <div class=" d-flex justify-content-center ">
+              <div>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+
+              <div>
+                2032
+              </div>
+              
+            </div>
+
+            <div>
+              <p>vediamo che scrivere</p>
+            </div>
+
+          </div>
+
+          <div class=" col-12 ">
+            <div class=" d-flex justify-content-center ">
+              <div>
+                <i class="fa-regular fa-heart"></i>
+              </div>
+
+              <div>
+                2032
+              </div>
+              
+            </div>
+
+            <div>
+              <p>vediamo che scrivere</p>
+            </div>
+
+          </div>
+
+          
+
+          
           
         </div>
       
