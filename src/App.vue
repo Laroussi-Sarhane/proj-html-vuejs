@@ -7,6 +7,7 @@ import Firstsection from './components/Firstsection.vue'
 import Secondsection from './components/Secondsection.vue'
 import Thirdsection from './components/Thirdsection.vue'
 import Foursection from './components/Foursection.vue'
+import Fivesection from './components/Fivesection.vue'
 
 
 export default {
@@ -16,6 +17,7 @@ export default {
     Secondsection,
     Thirdsection,
     Foursection,
+    Fivesection,
     Main,
     Footer
   }
@@ -29,6 +31,7 @@ export default {
   <Secondsection />
   <Thirdsection />
   <Foursection />
+  <Fivesection/>
 
 
 

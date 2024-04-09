@@ -60,13 +60,13 @@ export default {
      </div>
 
      <div class="cdeb d-flex justify-content-center align-content-center  ">
-      <div class="my_bottone">
-        <button type="button" class="btn btn-outline-light">Light</button>
-      </div>
+        <div class="my_bottone">
+          <button type="button" class="btn btn-outline-light">OUR MISSION</button>
+        </div>
 
-      <div class="my_secbottone">
-        <button type="button" class="btn btn-outline-warning">Warning</button>
-      </div>
+        <div class="my_secbottone">
+          <button type="button" class="btn btn-outline-warning">DONATE NOW</button>
+        </div>
 
      </div>
 

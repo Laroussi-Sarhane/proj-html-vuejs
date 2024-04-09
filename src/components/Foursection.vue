@@ -124,7 +124,7 @@ export default {
 
 </div>
 
-  <div class=" my_big_content d-flex  justify-content-center align-content-center   ">
+  <div class=" my_big_content d-flex  justify-content-center align-content-center  ">
     <p class=" text-white  py-3 ">VIEW ALL OUR ARTICLES</p>
 
   </div>
@@ -151,6 +151,7 @@ section{
   width: 1100px;
   margin-top: 30px;
   margin-left: 210px;
+  margin-bottom: 50px;
 }
 .my_large{
   max-width: 500px;
@@ -158,7 +159,7 @@ section{
 .my_big_box{
   height: 720px;
   width: 600px;
-  border: 2px solid gray;
+  border: 1px solid gray;
 }
 .my_margin{
   margin-top: 50px;
