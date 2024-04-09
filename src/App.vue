@@ -6,6 +6,7 @@ import Main from './components/Main.vue'
 import Firstsection from './components/Firstsection.vue'
 import Secondsection from './components/Secondsection.vue'
 import Thirdsection from './components/Thirdsection.vue'
+import Foursection from './components/Foursection.vue'
 
 
 export default {
@@ -14,6 +15,7 @@ export default {
     Firstsection,
     Secondsection,
     Thirdsection,
+    Foursection,
     Main,
     Footer
   }
@@ -26,6 +28,9 @@ export default {
   <Firstsection />
   <Secondsection />
   <Thirdsection />
+  <Foursection />
+
+
 
 
   <Main/>
