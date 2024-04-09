@@ -7,7 +7,7 @@ export default {
 
 <section>
 
-  <div class="my_p d-flex justify-content-center col-12  text-center flex-column ">
+  <div class="my_p d-flex justify-content-center container   text-center flex-column ">
 
 <div>
   <h4 class="my_title">LATEST ARTICLES</h4>
@@ -54,7 +54,7 @@ export default {
 
       <div class=" my_text_small flex-column ">
         <div>
-          <h5 class=" my_color">Understandig human complexities</h5>
+          <h5 class=" my_color">The human story of uniqueness</h5>
         </div>
 
         <div class="my_font">
@@ -73,7 +73,7 @@ export default {
 
     <div class=" my_text_small flex-column ">
       <div>
-        <h5 class=" my_color">Understandig human complexities</h5>
+        <h5 class=" my_color">Sustainable trade tactics</h5>
       </div>
 
       <div class="my_font">
@@ -91,7 +91,7 @@ export default {
 
     <div class=" my_text_small flex-column ">
       <div>
-        <h5 class=" my_color">Understandig human complexities</h5>
+        <h5 class=" my_color">Farmers making a difference </h5>
       </div>
 
       <div class="my_font">
@@ -109,7 +109,7 @@ export default {
 
   <div class=" my_text_small flex-column ">
     <div>
-      <h5 class=" my_color">Understandig human complexities</h5>
+      <h5 class=" my_color">Meeting remote tribues in Peru </h5>
     </div>
 
     <div class="my_font">
@@ -119,11 +119,15 @@ export default {
 
   </div>
 
+</div>
 
-  </div>
 
 </div>
 
+  <div class=" my_big_content d-flex  justify-content-center align-content-center   ">
+    <p class=" text-white  py-3 ">VIEW ALL OUR ARTICLES</p>
+
+  </div>
 </section>
 
 </template>
@@ -141,7 +145,12 @@ section{
 .my_box{
   height: 600px;
   width: 450px;
-  
+}
+.my_big_content{
+  background-color: #ed6864;
+  width: 1100px;
+  margin-top: 30px;
+  margin-left: 210px;
 }
 .my_large{
   max-width: 500px;
