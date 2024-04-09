@@ -39,8 +39,22 @@
   <div class=" my_cont  ">
 
     <div class=" col-12  text-center d-flex  justify-content-center  ">
-      <div class=" mt-3 ">
-        <p>sdnvnvjfjcndkfnvjfdnmcvv</p>
+      <div class=" mt-3 d-flex ">
+        <div class=" d-flex">
+          <li><i class="fa-solid fa-copyright my_font"></i></li>
+
+          <div>
+            <p class="my_font p-1 ">copyright 2010-2020 AVADA THEME BY THEM FUSION |</p>
+          </div>
+        </div>
+
+        <div>
+          <p class=" my_font p-1 ">  ALL RIGHTS RESERVED  |</p>
+        </div>
+
+        <div>
+          <p class="my_font p-1 "> POWERED BY BOOLEAN</p>
+        </div>
       </div>
     </div>
 
@@ -88,5 +102,9 @@ a {
 li{
   text-decoration: none;
   list-style: none;
+}
+.my_font{
+  font-size: 10px;
+  color: #B1B1B0;
 }
 </style>
