@@ -47,7 +47,7 @@ export default {
 
 <div class="my_fluid container-fluid d-flex justify-content-center align-content-between ">
 
-  <div>
+  <div class=" d-flex  justify-content-center  align-content-center ">
     <p class=" text-center text-white  py-4 "> VIEW ALL OUR CAUSES</p>
   </div>
 

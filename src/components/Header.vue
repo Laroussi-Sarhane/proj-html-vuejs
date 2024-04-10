@@ -115,9 +115,14 @@ img{
 }
 .my_bottone{
   padding-right: 5px;
+
+}
+.my_bottone:hover{
+  color: #FCD66C;
 }
 .my_secbottone{
   padding-left: 5px;
+  
 }
 
 </style>
