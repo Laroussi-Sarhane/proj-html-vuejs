@@ -159,7 +159,8 @@ section{
 .my_big_box{
   height: 720px;
   width: 600px;
-  border: 1px solid gray;
+ 
+  box-shadow: 0 0 0 1px#5c6668 ;
 }
 .my_margin{
   margin-top: 50px;
@@ -177,7 +178,7 @@ section{
   width: 177px;
   height: 142px;
   margin-bottom: 50px;
-  background-color: #FCD66C;
+  box-shadow: 0 0 0 1px#5c6668 ;
 }
 .my_text_small{
   margin-left:10px ;

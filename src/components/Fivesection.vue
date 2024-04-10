@@ -42,7 +42,7 @@ export default {
 
 <style scoped>
 section{
-  min-height: 500px;
+  min-height: 600px;
   background-image: url(../assets/img/home-footer.jpg);
   background-size: cover;
   width:  100%;

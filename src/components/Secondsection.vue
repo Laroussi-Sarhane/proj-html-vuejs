@@ -127,7 +127,7 @@ section{
 }
 .my_icon{
   color: #FCD66C;
-  font-size: 3rem;
+   width: 10px; 
 }
 .my_margin{
   margin-top: 50px;
@@ -145,6 +145,9 @@ section{
   margin-top: 90px;
   color: white;
   font-size: 1.3rem;
+}
+i{
+  font-size: 4rem;
 }
 
 
