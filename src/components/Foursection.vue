@@ -124,8 +124,8 @@ export default {
 
 </div>
 
-  <div class=" my_big_content d-flex  justify-content-center align-content-center  ">
-    <p class=" text-white  py-3 ">VIEW ALL OUR ARTICLES</p>
+  <div class="my_bgs my_big_content d-flex  justify-content-center align-content-center  ">
+    <p class="  text-white  py-3 ">VIEW ALL OUR ARTICLES</p>
 
   </div>
 </section>
@@ -164,6 +164,9 @@ section{
 }
 .my_margin{
   margin-top: 50px;
+}
+.my_bgs:hover{
+  background-color: #353841;
 }
 .my_cont{
   border-bottom: 2px solid #FCD66C;

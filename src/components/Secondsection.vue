@@ -127,7 +127,8 @@ section{
 }
 .my_icon{
   color: #FCD66C;
-   width: 10px; 
+  font-size: 1.3rem;
+  padding: 3px;
 }
 .my_margin{
   margin-top: 50px;

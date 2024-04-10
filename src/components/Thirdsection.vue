@@ -85,7 +85,7 @@ section{
   width: 200px;
   height: 150px;
   margin: 30px;
-  background-color: #FCD66C;
+
 }
 
 </style>
