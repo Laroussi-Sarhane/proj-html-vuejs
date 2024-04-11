@@ -58,7 +58,7 @@ section{
   font-size: 1.3rem;
 }
 .my_upp{
-  margin-top: 40px;
+  margin-top: 90px;
 }
 .my_bottone{
   padding-right: 5px;

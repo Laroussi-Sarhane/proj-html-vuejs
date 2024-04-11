@@ -20,7 +20,18 @@ export default {
           link: '#'
         },
        
+      ],
+      Menub:[
+        {
+          title1: 'MAKE A DIFFERENCE',
+          link: '#'
+        },
+        {
+          title2: 'as long as poverty, injustice & inequality persist, none of us can truly rest',
+          link: '#'
+        }
       ]
+     
     }
   }
 
@@ -52,20 +63,25 @@ export default {
     <div class=" d-flex flex-column  justify-content-center align-content-center ">
 
      <div class="my_paragraf cdeb d-flex  justify-content-center ">
-       <h1>MAKE A DIFFERENCE</h1>
+       <h1 v-for="(item,index) in Menub " :key="index">{{ item.title1 }}</h1>
      </div>
 
      <div class=" cdeb d-flex justify-content-center align-content-center ">
-      <p>as long as poverty, injustice & inequality persist, none of us can truly rest </p>
+      <p v-for="(item,index) in Menub " :key="index">{{ item.title2 }} </p>
      </div>
 
      <div class="cdeb d-flex justify-content-center align-content-center  ">
         <div class="my_bottone">
-          <button type="button" class="btn btn-outline-light">OUR MISSION</button>
+          <a href="">
+            <button type="button" class="btn btn-outline-light">OUR MISSION</button>
+          </a>
+          
         </div>
 
         <div class="my_secbottone">
-          <button type="button" class="btn btn-outline-warning">DONATE NOW</button>
+          <a href="">
+            <button type="button" class="btn btn-outline-warning">DONATE NOW</button>
+          </a>
         </div>
 
      </div>
